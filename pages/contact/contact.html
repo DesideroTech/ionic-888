@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<ion-item>
+    <ion-label>Height in cm: </ion-label>
+    <ion-input type="number"[(ngModel)]="height"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Weight in kg: </ion-label>
+    <ion-input type="number"[(ngModel)]="weight"></ion-input>
+  </ion-item>
+ 
+ <ion-item>
+    <ion-label>Age: </ion-label>
+    <ion-input type="number"[(ngModel)]="age"></ion-input>
+  </ion-item>
+
+<ion-item>
+    <ion-label color="dark"> Sex: </ion-label>
+    <ion-select interface="popover" [(ngModel)]="gender">
+      <ion-option value="m">Male</ion-option>
+      <ion-option value="f">Female</ion-option>
+    </ion-select>
+</ion-item>
+
+<ion-item>
+    <ion-label color="dark"> Physical Activity Level: </ion-label>
+    <ion-select interface="popover" [(ngModel)]="physicalactivitylevel">
+      <ion-option value="1.2">little or no exercise</ion-option>
+      <ion-option value="1.4">light exercise or sports 1-2 days/week</ion-option>
+      <ion-option value="1.6">moderate exercise or sports 2-3 days/week</ion-option>
+      <ion-option value="1.75">hard exercise or sports 4-5 days/week</ion-option>
+      <ion-option value="2.0">very hard exercise or sports 6-7 days/week</ion-option>
+      <ion-option value="2.3">professional athlete</ion-option>
+    </ion-select>
+</ion-item>
+
+ <button ion-button color="secondary" (click)="calculateDCI()">CALCULATE</button>
+
+<ion-item *ngIf="dci">
+    <h2 class="heading2">Your DCI is: {{dci}}</h2>
+    </ion-item>
+
+</ion-content>
