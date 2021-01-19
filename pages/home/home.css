@@ -13,3 +13,5 @@ p{
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+img{ width:50%; margin: auto; display: block;}
