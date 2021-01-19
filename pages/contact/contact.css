@@ -1,3 +1,7 @@
 ion-content {
   background: linear-gradient(to bottom, #0b486b, #f56217);
 }
+
+.clear{
+  background-color: transparent;
+}
