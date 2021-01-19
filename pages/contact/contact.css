@@ -9,5 +9,8 @@ Button {
 Background-color: orange;
 }
 Item-option {
-Background-color:  red;
+Background-color:  rgb(33, 224, 49);
+}
+ion-item {
+Background-color:     #fad9c1 ;
 }
