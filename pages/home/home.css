@@ -21,3 +21,10 @@ p{
 }
 
 img{ width:25%; height: 50%; margin: auto; display: block;}
+
+Button {
+Background-color: pink;
+}
+Item-option {
+Background-color:  red;
+}
