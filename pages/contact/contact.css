@@ -12,5 +12,6 @@ Item-option {
 Background-color:  rgb(33, 224, 49);
 }
 ion-item {
-Background-color:     #fad9c1 ;
-}
+Background-color:     #fad9c1 ;}
+
+img{ width: 50%; height: 75%; margin: auto; display: block;}
