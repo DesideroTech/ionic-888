@@ -8,12 +8,15 @@ h3{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ion-avatar{
-  
+img{
+  width:
 }
-
 p{
   color: white;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ion-label {
+  font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
