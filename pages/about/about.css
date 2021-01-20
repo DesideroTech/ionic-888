@@ -2,11 +2,10 @@ ion-content {
   background: linear-gradient(to bottom, #0b486b, #f56217);
 }
 
-h3{
-  color: white;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+h3{color: white;
+text-align: center;
+font-size: 40pt;
+font-family: sans}
 
 img{
   width:
@@ -18,5 +17,6 @@ p{
 }
 
 ion-label {
-  font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white ;
 }
