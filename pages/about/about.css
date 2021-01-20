@@ -2,10 +2,18 @@ ion-content {
   background: linear-gradient(to bottom, #0b486b, #f56217);
 }
 
+H2{color: white;
+text-align: justify;
+font-size: 15pt;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
 h3{color: white;
 text-align: center;
 font-size: 40pt;
 font-family: sans}
+
+H4{font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white ;}
 
 img{
   width:
