@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
+ 
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html',
   styleUrls: ["contact.css"]
-
+ 
 })
 export class ContactPage {
   height: number;
@@ -17,14 +17,18 @@ export class ContactPage {
   physicalactivitylevel: string;
   dci: number;
   error: string;
-
+ 
   constructor(public navCtrl: NavController) {} 
   calculateDCI() {
-
-  if (this.age >= 18) {
+ 
+  if (this.age >= 18 && this.weight > 0 && this.height > 0) {
    this.caloriesinitial = (10 * this.weight + 6.25 * this.height - 5 * this.age);
-  } else if (this.age >= 18) {
+  } else if (this.age >= 18 && this.weight > 0 && this.height > 0) {
    this.caloriesinitial = (10 * this.weight + 6.25 * this.height - 5 * this.age);
+  } else if (this.weight < 0 && this.height < 0 && this.age < 18) {
+    this.error = "No negative values are allowed. Please refresh and try again. This calculator does not provide a valid result for ages 17 and below.";
+  } else if (this.weight < 0 || this.height < 0) {
+    this.error = "No negative values are allowed. Please refresh and try again.";
   } else {
     this.error = "This calculator does not provide a valid result for ages 17 and below.";
   }
