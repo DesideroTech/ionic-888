@@ -47,7 +47,11 @@
  <button ion-button color="secondary" (click)="calculateDCI()">CALCULATE</button>
 
 <ion-item class="clear" *ngIf="dci">
-    <h2 class="heading2">Your DCI is: {{dci}}</h2>
+    <h2 class="heading2">Your DCI is: {{dci}} kcal/day.</h2>
+    </ion-item>
+
+<ion-item class="clear" *ngIf="age">
+    <h2 class="heading2">{{error}}</h2>
     </ion-item>
 
 </ion-content>
