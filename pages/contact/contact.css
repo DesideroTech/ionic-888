@@ -9,8 +9,7 @@ font-size: 40pt;
 font-family: sans
 }
  h2{ color:white;
- text-align: center;
- font-size: 8pt;
+ font-size: small;
  }
 .clear{
   background-color: transparent;
