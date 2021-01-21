@@ -20,6 +20,10 @@ p{
 }
 
 img{ width: 75%; height: 50%; margin: auto; display: block;}
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 Button {
 Background-color: rgb(52, 221, 36);
