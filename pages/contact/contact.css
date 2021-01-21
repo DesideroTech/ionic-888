@@ -1,7 +1,14 @@
 ion-content {
   background: linear-gradient(to bottom,#30E8BF, #FF8235);
 }
-
+ 
+h1{
+color: white;
+text-align: center;
+font-size: 40pt;
+font-family: sans
+}
+ 
 .clear{
   background-color: transparent;
 }
@@ -13,7 +20,7 @@ Background-color:  rgb(33, 224, 49);
 }
 ion-item {
 Background-color:     #fad9c1 ;}
-
+ 
 img{ width: 75%; height: 50%; margin: auto; display: block;}
 .responsive {
   width: 100%;
