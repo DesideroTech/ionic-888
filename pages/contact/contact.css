@@ -15,3 +15,7 @@ ion-item {
 Background-color:     #fad9c1 ;}
 
 img{ width: 75%; height: 50%; margin: auto; display: block;}
+.responsive {
+  width: 100%;
+  height: auto;
+}
