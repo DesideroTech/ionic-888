@@ -1,35 +1,31 @@
 ion-content {
   background: linear-gradient(to bottom,#30E8BF, #FF8235);
 }
-
+ 
 H2{color: white;
 text-align: justify;
 font-size: 15pt;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
-
+ 
 h3{color: white;
 text-align: center;
 font-size: 40pt;
 font-family: sans}
-
+ 
 H4{font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white ;}
-
-img{
-  width:
-}
+ 
 p{
   color: white;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-ion-label { style="font-size:8vw;"
-  font-size: 20pt; font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white ;
  
+ion-label {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white ;
 }
-
+ 
 ol {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white ;
