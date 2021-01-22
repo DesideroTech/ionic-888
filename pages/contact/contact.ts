@@ -26,7 +26,7 @@ export class ContactPage {
   } else if (this.age >= 18 && this.weight > 0 && this.height > 0) {
    this.caloriesinitial = (10 * this.weight + 6.25 * this.height - 5 * this.age);
   } else if (this.weight < 0 && this.height < 0 && this.age < 18) {
-    this.error ="Negative values and ages 17 and below are not allowed. Please try again";
+    this.error ="Negative values and ages 17 and below are  allowed. Please try again";
   } else if (this.weight < 0 || this.height < 0) {
     this.error = "No negative values are allowed. Please refresh and try again.";
   } else {
