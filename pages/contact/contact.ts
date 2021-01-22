@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
  
 })
 export class ContactPage {
-  height: number;
+  height: Number;
   weight: number;
   age: number;
   sex: string;
@@ -16,7 +16,7 @@ export class ContactPage {
   caloriesfinal: number;
   physicalactivitylevel: string;
   dci: number;
-  error: ;
+  error: string;
  
   constructor(public navCtrl: NavController) {} 
   calculateDCI() {
@@ -26,7 +26,7 @@ export class ContactPage {
   } else if (this.age >= 18 && this.weight > 0 && this.height > 0) {
    this.caloriesinitial = (10 * this.weight + 6.25 * this.height - 5 * this.age);
   } else if (this.weight < 0 && this.height < 0 && this.age < 18) {
-    this.error ="Negative values and ages 17 below are not allowed. Please try again";
+    this.error ="Negative values and ages 17 and below are not allowed. Please try again";
   } else if (this.weight < 0 || this.height < 0) {
     this.error = "No negative values are allowed. Please refresh and try again.";
   } else {
@@ -57,4 +57,4 @@ export class ContactPage {
     this.dci=0;
   }
   }
-  }
+}
