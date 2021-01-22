@@ -16,7 +16,7 @@ export class ContactPage {
   caloriesfinal: number;
   physicalactivitylevel: string;
   dci: number;
-  error: string;
+  error: ;
  
   constructor(public navCtrl: NavController) {} 
   calculateDCI() {
